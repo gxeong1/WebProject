@@ -1,0 +1,86 @@
+.filsa-page, .save-image-page {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.quote-section {
+  margin: 20px 0;
+}
+
+.highlighted-text {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.quote-info {
+  font-size: 18px;
+  color: #555;
+}
+
+.input-area {
+  width: 90%;
+  height: 100px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.image-thumbnail {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.image-thumbnail:hover {
+  border: 2px solid #007bff;
+}
+
+.selected {
+  border: 2px solid #28a745;
+}
+
+/* Pretendard-Regular 폰트 */
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* GmarketSansMedium 폰트 */
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Ownglyph_ParkDaHyun 폰트 */
+@font-face {
+  font-family: 'Ownglyph_ParkDaHyun';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ChosunCentennial 폰트 */
+@font-face {
+  font-family: 'ChosunCentennial';
+  src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
