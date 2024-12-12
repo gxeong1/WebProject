@@ -1,41 +1,66 @@
+/* Filsa Page */
 .filsa-page {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .button {
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #0056b3;
-  }
-  
-  .quote-section {
-    margin: 20px 0;
-  }
-  
-  .highlighted-text {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .quote-info {
-    font-size: 18px;
-    color: #555;
-  }
-  
-  .input-area {
-    width: 90%;
-    height: 100px;
-    font-size: 16px;
-    margin-top: 20px;
-  }
-  
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.filsa-page h1{
+  font-family: 'HSGyoulnoonkot';
+}
+
+.quote-section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quote-section h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.highlighted-text {
+  font-size: 18px;
+  font-family: 'Pretendard-Regular', Arial, sans-serif;
+  word-wrap: break-word;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+
+.quote-info {
+  font-size: 14px;
+  color: #666;
+}
+
+.input-area {
+  width: 100%;
+  max-width: 600px;
+  height: 150px;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-area:focus {
+  outline: none;
+  border-color: #6c8f57;
+  box-shadow: 0 0 5px rgba(108, 143, 87, 0.5);
+}
+
+@font-face {
+  font-family: 'HSGyoulnoonkot';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSGyoulnoonkot.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

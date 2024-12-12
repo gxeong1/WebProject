@@ -39,24 +39,24 @@ function FilsaPage() {
 
   return (
     <div className="filsa-page">
-      <h1>필사 연습</h1>
-      <button onClick={getRandomQuote} className="button">
-        새로운 대사
-      </button>
-      <button onClick={goToSaveImage} className="button" disabled={!currentQuote.quote}>
-        이미지 저장 화면으로 이동
-      </button>
+      <h1>다님길</h1>
 
       <div className="quote-section">
-        <h2>대사:</h2>
         <div className="highlighted-text">{renderHighlightedText()}</div>
         <p className="quote-info">
           - {currentQuote.author || '작가 미상'}, {currentQuote.book || '제목 미상'}
         </p>
       </div>
 
+      <button onClick={getRandomQuote} className="button">
+        새로운 대사
+      </button>
+      <button onClick={goToSaveImage} className="button" disabled={!currentQuote.quote}>
+       대사 이미지 저장
+      </button>
+
       <textarea
-        placeholder="여기에 필사하세요..."
+        placeholder="텍스트를 입력해주세요"
         value={inputText}
         onChange={(e) => setInputText(e.target.value)}
         className="input-area"
